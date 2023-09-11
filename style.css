@@ -1929,8 +1929,12 @@
         zoom: 80%;
     }
 
-      .navigation{
+    .navigation{
         margin-top: -60px;
+        margin-left: 250px;
+    }
+
+    .navi{
         margin-left: 250px;
     }
 
