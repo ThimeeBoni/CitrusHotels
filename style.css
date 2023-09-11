@@ -2430,6 +2430,12 @@
     .top-bar{
         height: 55px;
      }
+
+     .citrus{
+        zoom: 50%;
+        margin-top: 40px;
+        height: auto;
+    }
  
      .citrus-res{
          margin-top: -100px;
