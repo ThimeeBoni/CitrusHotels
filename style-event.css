@@ -511,3 +511,63 @@ img.hover-img{
     margin-left: 450px;
     margin-top: 50px;
 }
+
+@media(width < 1440px){
+    .top-bar-ev1{
+        zoom: 80%;
+    }
+
+    .menu-header-ev1{
+        margin-left: 650px;
+    }
+
+    .footer-ev{
+        zoom: 85%;
+        width: 150%;
+        margin-left: -2px;
+    }
+
+    .citrus-ev1{
+        zoom: 80%;
+        margin-top: 25px;
+        height: 100px;
+    }
+
+   .bar{
+        margin-top: 270px;
+        zoom: 108%;
+        height: auto;
+    
+    }
+   
+    .container-home{
+        width: 800%;
+        margin-top: 100px;
+    }
+
+    .line{
+        margin-top: 80px;
+    }
+
+    .img-ev1{
+        width: 130%;
+    }
+    .container-ev1{
+        width: 136%;
+        zoom: 80%;
+    }
+
+    .img1-ev1{
+        width: 130%;
+    }
+
+    .container1-ev1{
+        width: 136%;
+        zoom: 80%;
+    }
+    #ev1-hall-des{
+        margin-top: 200px;
+        margin-left: 50px;
+        zoom: 150%;
+    }
+}
