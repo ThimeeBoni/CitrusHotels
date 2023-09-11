@@ -1929,6 +1929,11 @@
         zoom: 80%;
     }
 
+      .navigation{
+        margin-top: -60px;
+        margin-left: 250px;
+    }
+
     .menu-header-div{
         margin-left: 650px;
     }
