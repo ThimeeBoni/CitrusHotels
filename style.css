@@ -1698,59 +1698,20 @@
 
 /*media queries*/
 
+@media (max-width:1880px){
 
-
-@media (max-width:588px){
-
-    .top-bar{
-        height: 55px;
-     }
- 
-     .citrus-res{
-         margin-top: -100px;
-         height: 100px;
-     }
-     .name{
-         margin-left: 150px;
-         font-size: 27px;
-     }
- 
-    .social{
-         margin-top: 9px;
-         margin-left: 400px;
-         font-size: 27px;
+    .footer-ad{
+        margin-top: 100%;
+        width: 150%;
+        
     }
- 
-     .menu-header{
-         margin-top: 2px;
-         margin-left: 400px;
-     }
- 
-     #menu{
-         font-size: 20px;
-     }
- 
-     
- 
-     .footer-home{
-         zoom: 140%;
-     }
- 
-     .logo{
-         zoom: 140%;
-     }
-     .navigation{
-         margin-top: -60px;
-         margin-left: 1100px;
-     }
- 
-     #navi{
-         font-size: 27px;
-     }
- 
-     #navi-hover{
-         font-size: 27px;
-     }
+}
+
+
+@media (max-width:1764px){
+    .navigation{
+        margin-left: 355px;
+    }
 }
 
 
@@ -1876,6 +1837,17 @@
 }
 
 
+@media (max-width:1568px){
+    .adventures{
+        width: 120%;
+     }
+     .menu-header{
+        margin-top: 2px;
+        margin-left: -100px;
+    }
+}
+
+
 @media (max-width:1440px){
 
     .top-bar{
@@ -1938,138 +1910,8 @@
      .adventures{
         width: 150%;
      }
-
-    }
-     
-    @media (max-width:1764px){
-        .navigation{
-            margin-left: 355px;
-        }
-    }
-    @media (max-width:1568px){
-        .adventures{
-            width: 120%;
-         }
-         .menu-header{
-            margin-top: 2px;
-            margin-left: -100px;
-        }
-}
-
-
-@media (max-width:1024px){
-
-    .footer-home{
-        zoom: 140%;
-        width: 270%;
-    }
-    .adventures{
-        width: 200%;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width:1880px){
-
-    .footer-ad{
-        margin-top: 100%;
-        width: 150%;
-        
-    }
-}
-
-
-
-
-@media(width<=1000px){
-    .citrus{
-        zoom: 50%;
-        margin-top: 40px;
-        height: auto;
     }
 
-    .top-bar{
-        zoom: 50%;
-    }
-
-    .menu-header-div{
-        margin-left: 700px;
-    }
-
-    .footer-main{
-        margin-top: 500%;
-        zoom: 50%;
-    }
-
-    .citrus-hotels-home{
-        zoom: 120%;
-        margin-left: -50px;
-    }
-
-    .bar{
-        zoom: 18%;
-    }
-
-    .container-home{
-        zoom: 50%;
-        width: 4%;
-        height: 30%;
-        overflow-x: hidden;
-    }
-
-    #explore{
-        margin-top: 400px;
-        margin-left: 10px;
-    }
-
-    #para{
-        margin-top: 100px;
-        margin-left: 50px;
-        width: 100%;
-        font-size: 20px;
-    }
-
-    #ex-img2{
-        margin-top: 100px;
-        margin-left: 100px;
-        zoom: 120%;
-    }
-
-    #ex-img1{
-        margin-left: 20px;
-    }
-
-    .footer-home{
-        margin-top: 110%;
-    }
-
-    .body-ad{
-        zoom: 50%;
-    }
-    
-    .footer-ad{
-        margin-top: 120%;
-        width: 160%;
-    }
-
-    .form1{
-        width: 83%;
-    }
-
-    .form2{
-        width: 83%;
-    }
-
-    .table-form1{
-        width: 117%;
-    }
-
-    .footer-book{
-        margin-top: 10%;
-        width: 160%;
-    }
-
-}
 
 
 @media(width < 1440px){
@@ -2092,7 +1934,7 @@
     }
 
     .footer-main{
-        margin-top: 340%;
+        margin-top: 450%;
         zoom: 85%;
         width: 110%;
         margin-left: -2px;
@@ -2136,6 +1978,7 @@
 
     .line{
         margin-top: 500px;
+        display: flex;
     }
 
     #explore{
@@ -2223,14 +2066,13 @@
         height: 200%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap; 
     }
 
     #rest-h1{
         margin-top: 50px;
         zoom: 80%;
-        margin-left: 50px;
+        margin-left: 500px;
     }
 
     .res1{
@@ -2267,10 +2109,6 @@
    
     #event-r1{
         margin-left: -50px;
-    }
-
-    #rest-h1{
-        margin-left: 600px;
     }
     
     .read-r{
@@ -2310,9 +2148,341 @@
         height: 350px;
      }
      
+    .form1{
+        width: 83%;
+    }
+
+    .form2{
+        width: 83%;
+    }
+
+    .table-form1{
+        width: 117%;
+    }
+
+    .footer-book{
+        margin-top: 10%;
+        width: 160%;
+    }
 }
 
 
+@media (max-width:1024px){
+
+    .footer-home{
+        zoom: 140%;
+        width: 270%;
+    }
+    .adventures{
+        width: 200%;
+        margin-right: -20px;
+    }
+}
+
+
+@media(width<=1000px){
+    .citrus{
+        zoom: 50%;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .top-bar{
+        zoom: 50%;
+    }
+
+    .menu-header-div{
+        margin-left: 700px;
+    }
+
+    .footer-main{
+        margin-top: 500%;
+        zoom: 50%;
+    }
+
+    .citrus-hotels-home{
+        zoom: 120%;
+        margin-left: -50px;
+    }
+
+    .bar{
+        zoom: 18%;
+    }
+
+    .container-home{
+        zoom: 50%;
+        width: 4%;
+        height: 30%;
+        overflow-x: hidden;
+    }
+
+    #explore{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+
+    #para{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #ex-img2{
+        margin-top: 100px;
+        margin-left: 100px;
+        zoom: 120%;
+    }
+
+    #ex-img1{
+        margin-left: 20px;
+    }
+
+    .footer-home{
+        margin-top: 300%;
+    }
+
+    .body-ad{
+        zoom: 50%;
+    }
+    
+    .footer-ad{
+        margin-top: 120%;
+        width: 160%;
+    }
+
+    .form1{
+        width: 83%;
+    }
+
+    .form2{
+        width: 83%;
+    }
+
+    .table-form1{
+        width: 117%;
+    }
+
+    .footer-book{
+        margin-top: 10%;
+        width: 160%;
+    }
+
+    .body{
+        overflow-x: hidden;
+    }
+
+    .footer-ad{
+        margin-top: 130% ;
+        width: 185%;
+    }
+
+    .adventures{
+        width: 185%;
+    }
+
+    .citrus-res{
+        zoom: 80%;
+        margin-top: 25px;
+        height: 100px;
+    }
+
+    .top-bar-res{
+        zoom: 80%;
+        height: auto;
+    }
+
+    .line-res{
+        margin-top: 100px;
+    }
+
+    .rest{
+        margin-left: -170px;
+        margin-top: -100px;
+        width: 120%;
+        height: max-content;
+    }
+
+    #rest{
+        margin-top: 170px;
+        justify-content: center;
+        height: 200%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    #rest-h1{
+        margin-top: 50px;
+        zoom: 80%;
+        margin-left: -30px;
+    }
+
+    .res1{
+        margin-left: 110px;
+        margin-top: 50px;
+        width: 400px;
+    }
+    .res2{
+        margin-left: 600px;
+        margin-top: -510px;
+        width: 400px;
+    }
+    .res3{
+        margin-left: 400px;
+        margin-top: 100px;
+        width: 400px;
+    }
+    .res4{
+        margin-top: 10px;
+        margin-left: 120px;
+        width: 400px;
+    }
+    .res5{
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 400px;
+    }
+    #r-wed-img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        margin-right: 20px;
+    }
+    #img-r{
+        width: 70%;
+        height: auto;
+        margin-left: -50px;
+    }
+   
+    #event-r1{
+        margin-left: -50px;
+    }
+
+    .read-r{
+        margin-top: 20px;
+    }
+    
+    #r-txt{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .event-r{
+        zoom: 80%;
+        margin-left: 259px;
+        font-size: 40px;
+    }
+
+    #r-wed-img{
+        display: flex;
+        margin-left: 90px;
+     }
+     
+     #wed-r-txt{
+       font-size: 25px;
+       margin-right: 50px;
+     }
+     
+     #met-r-txt{
+        font-size: 25px;
+       margin-right: 50px;
+     }
+
+     .footer-res{
+        margin-top: auto;
+        zoom: 80%;
+        width: 100%;
+        height: 350px;
+     }
+     
+    .form1{
+        width: 83%;
+    }
+
+    .form2{
+        width: 83%;
+    }
+
+    .table-form1{
+        width: 117%;
+    }
+
+    .footer-book{
+        margin-top: 10%;
+        width: 160%;
+    }
+
+    .citrus{
+        height: 300px;
+    }
+    .container-main{
+        margin-top: 150px;
+    }
+
+}
+
+
+
+@media (width<=588px){
+
+    .top-bar{
+        height: 55px;
+     }
+ 
+     .citrus-res{
+         margin-top: -100px;
+         height: 100px;
+     }
+     .name{
+         margin-left: 150px;
+         font-size: 27px;
+     }
+ 
+    .social{
+         margin-top: 9px;
+         margin-left: 400px;
+         font-size: 27px;
+    }
+ 
+     .menu-header{
+         margin-top: 2px;
+         margin-left: 400px;
+     }
+ 
+     #menu{
+         font-size: 20px;
+     }
+ 
+     .footer-home{
+         zoom: 140%;
+     }
+ 
+     .logo{
+         zoom: 140%;
+     }
+     .navigation{
+         margin-top: -60px;
+         margin-left: 1100px;
+     }
+
+     .menu-header-div{
+        margin-left: 1100px;
+     }
+ 
+     #navi{
+         font-size: 27px;
+     }
+ 
+     #navi-hover{
+         font-size: 27px;
+     }
+
+     .footer-main{
+        margin-top: 1000%
+     }
+}
 
 
 

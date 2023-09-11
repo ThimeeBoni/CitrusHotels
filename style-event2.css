@@ -537,13 +537,13 @@ img.hover-img{
     }
 
     .menu-header-ev1{
-        margin-left: 650px;
+        margin-left: 50px;
     }
 
     .footer-ev{
-        zoom: 85%;
-        width: 350%;
-        margin-left: 0px;
+        zoom: 50%;
+        width: 190%;
+        margin-left: -250px;
     }
 
     .citrus-ev1{
@@ -572,7 +572,7 @@ img.hover-img{
         width: 130%;
     }
     .container-ev1{
-        width: 336%;
+        width: 136%;
         zoom: 140%;
         margin-left: 100px;
     }
@@ -582,10 +582,10 @@ img.hover-img{
     }
 
     .container1-ev1{
-        width: 336%;
+        width: 110%;
         zoom: 80%;
         display: flex;
-        margin-left: -900px;
+        margin-left: -120px;
     }
     #ev1-hall-des{
         margin-top: 200px;
@@ -594,28 +594,31 @@ img.hover-img{
     }
 
     .meet-txt{
-        zoom: 190%;
-        width: 700px;
-        margin-left: 500px;
+        zoom: 160%;
+        width: 500px;
+        margin-left: 100px;
     }
 
     #img{
-        zoom: 80%;
-        margin-left: 200px;
+        zoom: 100%;
+        margin-left: -400px;
+        width: 150%;
     }
 
     .event-txt{
-        zoom: 180%;
-        width: 190%;
+        zoom: 150%;
+        width: 150%;
         margin-left: 100px;
     }
 
     .animation{
-        zoom: 220%;
+        zoom: 80%;
     }
 
     #meetings1{
-        zoom: 150%;
+        zoom: 200%;
+        width: 600px;
+        margin-left: 100px;
     }
 
     #events1{
