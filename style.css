@@ -1808,7 +1808,7 @@
      }
      .navigation{
          margin-top: -60px;
-         margin-left: 1100px;
+         margin-left: 800px;
      }
  
      #navi{
@@ -2196,6 +2196,11 @@
         zoom: 50%;
     }
 
+      .navigation{
+        margin-top: -60px;
+        margin-left: 250px;
+    }
+
     .menu-header-div{
         margin-left: 700px;
     }
@@ -2440,6 +2445,11 @@
         zoom: 50%;
         margin-top: 40px;
         height: auto;
+    }
+
+      .navigation{
+        margin-top: -60px;
+        margin-left: 250px;
     }
  
      .citrus-res{
