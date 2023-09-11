@@ -1847,6 +1847,10 @@
 
 @media (max-width:1440px){
 
+    .body{
+        overflow: hidden;
+    }
+
     .top-bar{
         height: 55px;
      }
@@ -1919,6 +1923,7 @@
 
     .body{
         zoom: 80%;
+        overflow-x: hidden;
     }
     .citrus{
         zoom: 80%;
@@ -2032,11 +2037,6 @@
     }
     #img24{
         margin-top: 100px;
-    }
-
-    
-    .body{
-        overflow-x: hidden;
     }
 
     .footer-ad{
@@ -2191,6 +2191,11 @@
 
 
 @media(width<=1000px){
+
+    .body{
+        overflow: hidden;
+    }
+    
     .citrus{
         zoom: 50%;
         margin-top: 40px;
