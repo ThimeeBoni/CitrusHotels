@@ -1934,7 +1934,7 @@
 
     .body-home{
         zoom: 80%;
-        width:50%;
+        width: 50%;
     }
 
     .citrus{
@@ -1972,13 +1972,14 @@
     }
 
     .home-navi{
-        margin-top: 100px;
-        zoom: 200%;
+        margin-top: -100px;
+        zoom: 100%;
         position: fixed;
     }
 
     #home-navi{
         margin-top:-200px;
+        zoom: 150%;
     }
 
     .citrus-hotels-home{
@@ -2032,7 +2033,9 @@
     }
 
     .footer-home{
-        margin-top: 110%;
+        margin-top: 300%;
+        width: 180%;
+        zoom: 70%;
     }
 
     #img20{
@@ -2210,7 +2213,7 @@
 
     .body-home{
         zoom: 80%;
-        width:50%;
+        width: 50%;
     }
 
     .citrus{
@@ -2272,6 +2275,8 @@
 
     .footer-home{
         margin-top: 300%;
+        width: 160%;
+        zoom: 60%;
     }
 
     .body-ad{
@@ -2461,7 +2466,6 @@
 
     .body-home{
         zoom: 50%;
-        width:50%;
     }
 
     .top-bar{
