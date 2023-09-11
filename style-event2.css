@@ -529,3 +529,96 @@ img.hover-img{
     margin-left: 100px;
     margin-top: 50px;
 }
+
+
+@media(width < 1440px){
+    .top-bar-ev1{
+        zoom: 80%;
+    }
+
+    .menu-header-ev1{
+        margin-left: 650px;
+    }
+
+    .footer-ev{
+        zoom: 85%;
+        width: 350%;
+        margin-left: 0px;
+    }
+
+    .citrus-ev1{
+        zoom: 80%;
+        margin-top: 25px;
+        height: 100px;
+    }
+
+   .bar{
+        margin-top: 270px;
+        zoom: 108%;
+        height: auto;
+    
+    }
+   
+    .container-home{
+        width: 800%;
+        margin-top: 100px;
+    }
+
+    .line{
+        margin-top: 80px;
+    }
+
+    .img-ev1{
+        width: 130%;
+    }
+    .container-ev1{
+        width: 336%;
+        zoom: 140%;
+        margin-left: 100px;
+    }
+
+    .img1-ev1{
+        width: 130%;
+    }
+
+    .container1-ev1{
+        width: 336%;
+        zoom: 80%;
+        display: flex;
+        margin-left: -900px;
+    }
+    #ev1-hall-des{
+        margin-top: 200px;
+        margin-left: 50px;
+        zoom: 150%;
+    }
+
+    .meet-txt{
+        zoom: 190%;
+        width: 700px;
+        margin-left: 500px;
+    }
+
+    #img{
+        zoom: 80%;
+        margin-left: 200px;
+    }
+
+    .event-txt{
+        zoom: 180%;
+        width: 190%;
+        margin-left: 100px;
+    }
+
+    .animation{
+        zoom: 220%;
+    }
+
+    #meetings1{
+        zoom: 150%;
+    }
+
+    #events1{
+        zoom: 150%;
+    }
+}
