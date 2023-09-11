@@ -1,0 +1,513 @@
+*{
+    zoom: 104%;
+}
+
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+    display: flex; 
+}
+
+.body{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-bar-ev1 {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*background-color: #f78e1e;*/
+    background-image: url("event2.jpg");
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+@media (max-width:768px) {
+    .top-bar-ev1{
+        width: 40%;
+    }
+}
+
+@media (max-width:1744px) {
+    .top-bar-ev1{
+        width: 100%;
+    }
+}
+
+@media (max-width:2560px) {
+    .navigation-ev1{
+        width: 100%;
+    }
+}
+
+
+.name-ev1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.social{
+    height: 30px;
+    width: 100;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: #ffffff;
+    top: 4;
+    left: 15;
+    position: fixed;
+}
+
+.menu-header-ev1{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+} 
+
+.menu-header-div-ev1{
+    margin-top: -33px;
+    margin-left: 902px; 
+    position: fixed;
+    display:flex; 
+}
+
+#menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 13px;
+    padding-right: 22px;
+}
+.citrus-ev1{
+    height: 70px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: -8; 
+    position: fixed;
+    /*background-image: url("event33.jpg");*/
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 50px;
+    width: 10;
+    margin-top: 8px;
+    margin-left: 10;
+}
+
+.navigation-ev1{
+    margin-top: -50px;
+    margin-left: 770px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+}
+
+#navi1{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+#navi1:hover{
+    color: red;
+}
+
+#navi-hover1{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+
+#navi-hover:hover{
+    color: gray;
+}
+
+.line{
+    position: fixed;
+    margin-top: -24px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+.img-ev1{
+    width: 110%;
+    height: 900px;
+    margin-top: -130px;
+    margin-left: -20px;
+    background-image: url("wed111.jpg");
+}
+.ev1-beach{
+    margin-top: -680px;
+    margin-left: 100px;
+    margin-bottom: -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.ev1-beach1{
+    margin-left: 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#red{
+    color: red;
+}
+
+#ev1-beach-des{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container-ev1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: -40px;
+    background-color: #9797977c;
+    width: 110%;
+}
+
+.box-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+}
+
+.box1-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+    margin-left: -450px;
+}
+
+.box1-ev1 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box1-ev1:hover img{
+    opacity: 0;
+}
+
+.box1-ev1:hover img.hover-img{
+    opacity: 1;
+}
+
+.more{
+    margin-top: 400px;
+    margin-left: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.res-ev{
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 150px;
+    height: 70px;
+    background-color: #c91b1b;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.res-ev:hover{
+    background-color: #5e5d5d;
+}
+
+.img1-ev1{
+    width: 110%;
+    height: 750px;
+    margin-top: 50px;
+    margin-left: -20px;
+    background-image: url("weddd.jpg");
+}
+
+.ev1-hall{
+    margin-top: -700px;
+    margin-left: 250px;
+    margin-bottom: -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.ev1-hall1{
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#ev1-hall-des{
+    margin-left: 750px;
+    margin-top: -100px;
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #ffffffa1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.more1{
+    margin-top: 600px;
+    margin-left: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container1-ev1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: -40px;
+    background-color: #9797977c;
+    width: 110%;
+}
+
+.box2-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+}
+
+.box12-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+    margin-left: -450px;
+}
+
+.box12-ev1 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box12-ev1:hover img{
+    opacity: 0;
+}
+
+.box12-ev1:hover img.hover-img{
+    opacity: 1;
+}
+
+.footer-ev {
+    position: absolute;
+    background-color: #706f6fcb;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -8px;
+    font-size: 12px;
+}
+
+#list-content{
+    position: absolute;
+    width: 1350px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.navi-footer1{
+    list-style: none;
+    padding-right: 105px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#navi-footer{
+    padding-right: 140px;
+}
+
+#navi-footer1{
+    padding-right: 400px;
+    margin-left: -15px
+}
+
+.email{
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: -20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#type-email{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: -440;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6f6656;
+    text-align: center;
+    border: none;
+}
+
+#type-email:hover{
+    background-color: #e2e2e2;
+    text-transform: lowercase;
+    border: none;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#signup1{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: -130px;
+    width: 90px;
+    height: 50px;
+    background-color: red;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#signup1:hover{
+    background-color: #7d1515;
+}
+
+.footer-citrus-hotels{
+    width: 200px;
+    height: auto;
+    margin-left: 535px;
+    margin-top: 25px;
+    display: flex;
+}
+
+#footer-citrus-hotels{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+.list-footer{
+    padding-bottom: 15px;
+}
+
+.leisure{
+    width: 200px;
+    height: auto;
+    margin-left: 810px;
+    margin-top: -120px;
+    display: flex;
+}
+
+#leisure{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#leisure-list{
+    padding-bottom: 13px;
+}
+
+.contact{
+    width: 200px;
+    height: auto;
+    margin-left: 1090px;
+    margin-top: -170px;
+    display: flex;
+}
+
+#contact{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#con-list{
+    padding-bottom: 13px;
+}
+
+.copyr{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-left: 450px;
+    margin-top: 50px;
+}

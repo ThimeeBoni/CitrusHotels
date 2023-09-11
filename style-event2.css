@@ -1,0 +1,531 @@
+*{
+    zoom: 104%;
+}
+
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+    display: flex; 
+}
+
+.body{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.top-bar-ev1 {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*background-color: #f78e1e;*/
+    background-image: url("ev2new.jpg");
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.name-ev1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.social{
+    height: 30px;
+    width: 100;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: #ffffff;
+    top: 4;
+    left: 15;
+    position: fixed;
+}
+
+.menu-header-ev1{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+} 
+
+.menu-header-div-ev1{
+    margin-top: -33px;
+    margin-left: 902px; 
+    position: fixed;
+    display:flex; 
+}
+
+#menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 13px;
+    padding-right: 22px;
+}
+
+.citrus-ev1{
+    height: 70px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: -8; 
+    position: fixed;
+    /*background-image: url("event33.jpg");*/
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 50px;
+    width: 10;
+    margin-top: 8px;
+    margin-left: 10;
+}
+
+.navigation-ev1{
+    margin-top: -50px;
+    margin-left: 770px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+}
+
+#navi1{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+#navi1:hover{
+    color: rgb(0, 0, 186);
+}
+
+#navi-hover1{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 186);
+}
+
+#navi-hover:hover{
+    color: gray;
+}
+
+.line{
+    position: fixed;
+    margin-top: -24px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+.ev2-main{
+    background-color: rgba(39, 33, 83, 0.456);
+    width: 110%;
+    height: auto;
+    margin-left: -10px;
+    padding-top: 45px;
+}
+
+.animation{
+    width: 1350px;
+    height: 690px;
+    background-image: url("ev226.jpg");
+    margin-top: 40px;
+    margin-left: 80px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("miss1.jpg");
+    }
+   50%{
+        background-image: url("ev224.jpg");
+   }
+   75%{
+        background-image: url("missss.jpg");
+   }
+   100%{
+        background-image: url("missau.jpg");
+   }
+   
+}
+/*
+.ev2-meet{
+    margin-top: -615px;
+    margin-left: 550px;
+    margin-bottom: -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.ev2-meet2{
+    margin-left: 750px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+}
+*/
+
+#blue{
+    color: rgb(0, 0, 186);
+}
+
+#ev2-meet-des{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#meetings1{
+    margin-left: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.meet-txt{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container-ev1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: -40px;
+    background-color: #282a637c;
+    width: 110%;
+}
+
+.box-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+}
+
+.box1-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+    margin-left: -450px;
+}
+
+.box1-ev1 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box1-ev1:hover img{
+    opacity: 0;
+}
+
+.box1-ev1:hover img.hover-img{
+    opacity: 1;
+}
+
+#events1{
+    margin-left: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.event-txt{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#img{
+    margin-left: -308;
+    width: 1600px;
+    height: fit-content;
+    background-image: url("miss.jpg");
+}
+
+#fade{
+    width: 1600px;
+    height: fit-content;
+    background-color: #ffffff71;
+}
+
+.img{
+    width: 550px;
+    height: 550px;
+    margin-left: 425px;
+    background-image: url("missw.jpg");
+    border-radius: 5px;
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.637);
+}
+
+.img:hover{
+    animation: slide1 10s infinite;
+}
+
+@keyframes slide1{
+    20%{
+        background-image: url("venzz1.jpg");
+    }
+    40%{
+        background-image: url("estonia1.jpg");
+    }
+    60%{
+        background-image: url("me.jpg");
+    }
+    80%{
+        background-image: url("miss22.jpg");
+    }
+    100%{
+        background-image: url("missc.jpg");
+    }
+}
+
+.container1-ev1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+    margin-top: 30px;
+    margin-left: -308px;
+    background-color: #282a637c;
+    width: 1600;
+}
+
+.box2-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+}
+
+.box12-ev1{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0,0.2);
+    margin-right: 100px;
+    margin-left: -450px;
+}
+
+.box12-ev1 img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box12-ev1:hover img{
+    opacity: 0;
+}
+
+.box12-ev1:hover img.hover-img{
+    opacity: 1;
+}
+
+.footer-ev {
+    zoom: 90%;
+    position: absolute;
+    background-color: #4b466acb;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -345px;
+    font-size: 12px;
+}
+
+#list-content{
+    position: absolute;
+    width: 1350px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.navi-footer1{
+    list-style: none;
+    padding-right: 105px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#navi-footer{
+    padding-right: 140px;
+}
+
+#navi-footer1{
+    padding-right: 400px;
+    margin-left: -15px
+}
+
+.email{
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: -20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#type-email{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: -440;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6f6656;
+    text-align: center;
+    border: none;
+}
+
+#type-email:hover{
+    background-color: #e2e2e2;
+    text-transform: lowercase;
+    border: none;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#signup1{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -150px;
+    width: 90px;
+    height: 50px;
+    background-color: rgb(48, 21, 82);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#signup1:hover{
+    background-color: #32157d;
+}
+
+.footer-citrus-hotels{
+    width: 200px;
+    height: auto;
+    margin-left: 535px;
+    margin-top: 25px;
+    display: flex;
+}
+
+#footer-citrus-hotels{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+.list-footer{
+    padding-bottom: 15px;
+}
+
+.leisure{
+    width: 200px;
+    height: auto;
+    margin-left: 810px;
+    margin-top: -120px;
+    display: flex;
+}
+
+#leisure{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#leisure-list{
+    padding-bottom: 13px;
+}
+
+.contact{
+    width: 200px;
+    height: auto;
+    margin-left: 1090px;
+    margin-top: -170px;
+    display: flex;
+}
+
+#contact{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#con-list{
+    padding-bottom: 13px;
+}
+
+.copyr{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-left: 100px;
+    margin-top: 50px;
+}

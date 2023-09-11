@@ -1,0 +1,2353 @@
+
+*{
+    zoom: 104%;
+}
+
+#body{
+    font-family: 'cabin condensed,sans-serif';
+    overflow: hidden;
+}
+
+.body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.body-ad{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*headers*/
+
+.top-bar {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.top-bar-res {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f78e1e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.top-bar-stu {
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #61259e;
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+   
+}
+.social{
+    height: 30px;
+    width: 100;
+    margin-top: 0px;
+    margin-left: 150px;
+    color: #ffffff;
+    top: 4;
+    left: 15;
+    position: fixed;
+}
+
+.menu-header-div{
+    margin-top: -33px;
+    margin-left: 902px; 
+    position: fixed;
+    display:flex; 
+}
+
+.menu-header{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: #ffffff;
+    display: flex;
+} 
+
+#menu{
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    display: inline;
+    font-size: 13px;
+    padding-right: 22px;
+}
+.citrus{
+    height: 70px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: -8;   /**/
+    /*background-color: #000000;*/
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 50px;
+    width: 10;
+    margin-top: 8px;
+    margin-left: 10;
+}
+
+.navigation{
+    margin-top: -50px;
+    margin-left: 770px; 
+    position: fixed;
+    display:flex; 
+    /*background-color: #a41e1e;*//*make white*/
+    text-transform: uppercase;
+}
+
+#navi{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+#navi:hover{
+    color: #f78e1e;
+}
+
+#navi-hover{
+    padding-right: 35px;
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+
+#navi-hover:hover{
+    color: gray;
+}
+
+/*.body-img{
+    width: 100%;
+    height: 450px;
+    margin-top: 87px;
+    margin-left: -8;
+    position: relative;
+    background-size: 100%;
+    background-position-y:-40px;
+}*/
+
+/*citrus home page*/
+
+.img1{
+    height: 600;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: -8;
+    background-image: url("citrushomenew1.jpg");  
+    background-position-y:-130px;
+   
+}
+
+.img2{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: -8;
+    background-image: url("citrus1.jpg");
+    background-size: 100%;
+    background-position-y:-90px;
+}
+
+#vid{
+    background-color: #ffecda;
+    margin-top: 150px;
+    margin-left: -20px;
+    width: 105%;
+    height: 600px;
+}
+
+.vid{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.citrus-hotels-home{
+    margin-top: -9px;
+    height: 85;
+    width: 100%;
+    position: fixed;
+    display:flex; 
+   background-color: #ffffff;
+}
+
+.citrus-hotels{
+    margin-top: -65px;
+    margin-left: -8;
+    height: 80;
+    width: 100%;
+    position: fixed;
+    display:flex; 
+    background-color: #ffffff;
+}
+
+#hotels{
+    margin-left: 70;
+    height: 10px;
+    width: 10%;
+    list-style: none;
+    display: inline;
+}
+
+.hotels-button{
+    margin-top: 3px;
+}
+
+#buttons-hotels{
+    margin-top: -3px;
+    background-color: #ffffff;
+}
+
+#buttons-hotels:hover{
+    background-color: #f78e1e; 
+    float: fixed;
+}
+
+#buttons-hotels-stu{
+    margin-top: -2px;
+    background-color: #ffffff;
+}
+
+#buttons-hotels-stu:hover{
+    background-color: #61259e; 
+    float: fixed;
+}
+
+/*citrus main page, citrus home page, waskaduwa page, hikkaduwa page, steuarts page*/
+/*image animations*/
+
+.container-main{
+    width: 510%;
+    margin-left: 4px;
+    margin-right: 5px;
+    position: absolute;
+    margin-top: 62px;
+    display: flex;
+    animation: main-slide 10s infinite;
+}
+
+@keyframes main-slide {
+    20%{
+        transform: translateX(-0%);
+    }
+    40%{
+        transform: translateX(-20%);
+    }
+    60%{
+        transform: translateX(-40%);
+    }
+    80%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+}
+
+#img10{
+    margin-top: 25px;
+    background-image: url("citrusmain1.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img11{
+    margin-top: 25px;
+    background-image: url("citrus1.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img12{
+    margin-top: 25px;
+    background-image: url("was1.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img13{
+    margin-top: 25px;
+    background-image: url("hik.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img14{
+    margin-top: 25px;
+    background-image: url("citrus.jpg");
+    width: 1575px;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+/*
+.container-main:hover{
+    animation-play-state: paused; /*pause on hover - on/off*/
+
+.line{
+    position: fixed;
+    margin-top: -12px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+.bar{
+    position: fixed;
+    margin-top: -11px;
+    margin-left: -7px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+}
+
+.home-navi{
+    position: fixed;
+    margin-top: -5px;
+    margin-left: 170px;
+    width: 80%;
+    height: 40px;
+}
+
+#home-navi{
+    display: flex;
+    list-style: none;
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #827e78;
+}
+
+#home-navi-list{
+    margin-top: -6px;
+    margin-left: 30px;
+    padding-right: 25px;
+    align-content: center;
+    color: #827e78;
+}
+
+#home-navi-list:hover{
+    color: #f78e1e;
+}
+
+#home-navi-list1{
+    margin-top: -8px;
+    margin-left: 30px;
+    padding-right: 25px;
+    align-content: center;
+    color: #827e78;
+}
+
+#home-navi-list1:hover{
+    color: #61259e;
+}
+
+#home-navi-list-stu{
+    margin-top: -10px;
+    margin-left: 30px;
+    padding-right: 25px;
+    align-content: center;
+    color: #827e78;
+}
+
+#home-navi-list-stu:hover{
+    color: #61259e;
+}
+
+#container-home{
+    width: 555%;
+    margin-left: 3px;
+    margin-right: 5px;
+    position: relative;
+    margin-top: 135px;  
+    display: flex;
+    animation: home-slide 10s infinite;
+    margin-bottom: -650px;
+}
+
+@keyframes home-slide{ 
+    20%{
+        transform: translateX(-0%);
+    }
+    40%{
+        transform: translateX(-20%);
+    }
+    60%{
+        transform: translateX(-40%);
+    }
+    80%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+}
+
+#img20{
+    margin-top: 25px;
+    background-image: url("was.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img21{
+    margin-top: 25px;
+    background-image: url("hik1.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img22{
+    margin-top: 25px;
+    background-image: url("stu.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img23{
+    margin-top: 25px;
+    background-image: url("vilGC.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img24{
+    margin-top: 25px;
+    background-image: url("villabu11.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+/*
+.container-home:hover{
+    animation-play-state: paused; /*pause on hover - on/off*/
+
+
+.container-was{
+    width: 203%;
+    margin-left: 0px;
+    margin-right: 5px;
+    position: relative;
+    margin-top: 135px;  /**/
+    display: flex;
+    animation: was-slide 5s infinite;
+    margin-bottom: -650px;
+}
+
+@keyframes was-slide{ 
+    50%{
+        transform: translateX(-0%);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+#img30{
+    margin-top: 25px;
+    background-image: url("was.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img31{
+    margin-top: 25px;
+    background-image: url("Waskaduwa2.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img40{
+    margin-top: 25px;
+    background-image: url("hik.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img41{
+    margin-top: 25px;
+    background-image: url("hik2.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img50{
+    margin-top: 25px;
+    background-image: url("stu22.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#img51{
+    margin-top: 25px;
+    background-image: url("stu1.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: -11;
+    margin-right: 9;
+    background-position-y: center; 
+    background-position-x: center;
+}
+
+#content-home{
+    width: 1300px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 100px;
+    font-weight: bold; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 23px;
+    
+}
+.welcome{
+    margin-top: 750px;
+    padding: 50px 0;
+    /*background-color: #745353;*/
+    display: flex;
+}
+.container-welcome{
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-welcome1{
+    margin-top: -100px;
+    margin-right: -15px;
+    margin-left: -15px;
+    /*background-color: #3e8646;*/
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#journey{
+    /*background-color: #7d2c89;*/
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -10;
+}
+
+
+.welcome h1{
+    margin-bottom: 25px;
+    /*background-color: #2c4289;*/
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.welcome-to-citrus {
+    margin-top: 0;
+    /*background-color: #2c4289;*/
+    text-align: center;
+}
+
+.h1, h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.welcome strong {
+    color: #f78e1e;
+}
+
+.welcome-was{
+    margin-top: 750px;
+    padding: 50px 0;
+    /*background-color: #745353;*/
+    display: flex;
+}
+.container-welcome-was{
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-welcome1{
+    margin-top: -100px;
+    margin-right: -15px;
+    margin-left: -15px;
+    /*background-color: #3e8646;*/
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.welcome-was h1{
+    margin-bottom: 25px;
+    /*background-color: #2c4289;*/
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.welcome-to-was {
+    margin-top: 0;
+    /*background-color: #2c4289;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.h1, h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.welcome-was strong {
+    color: #f78e1e;
+}
+
+.txt-was{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-stu{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: #61259e;
+}
+
+#txt-stu{
+    margin-top: auto;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.map-was{
+    border: #f78e1e;
+    border-style:groove;
+    width: 80%;
+    height: auto;
+    /*background-color: #815811;*/
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.map-stu{
+    border: #61259e;
+    border-style:groove;
+    width: 80%;
+    height: auto;
+    /*background-color: #815811;*/
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+}
+
+#location{
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.explore{
+    margin-top: 30px;
+    padding: 50px 0;
+    width: auto;
+    height: 500px;
+    /*background-color: #745353;*/
+}
+#ex-img1{
+    position: inherit;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+#ex-img2{
+    position: inherit;
+    margin-top: 40px;
+    margin-left: 870px;
+}
+
+#explore{
+    /*background-color: #7d2c89;*/
+    font-size: 40px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 700px;
+    /*background-color: #b10b0b;*/
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#discover .h1{
+    margin-bottom: 25px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#ex-dis {
+    margin-top: -60px;
+    /*background-color: #2c893b;*/
+    text-align: right;
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+
+#h1, h1 {
+    font-size: 66px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#discover strong {
+    color: #f78e1e;
+
+}
+
+#para{
+    width: auto;
+    height: auto;
+    margin-left: 1030px;
+    margin-right: 100px;
+    /*background-color: #827e78;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.table{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table strong {
+    color: #f78e1e;
+}
+.table-text{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.table-header{
+    margin-bottom: 50px;
+}
+.td img{
+    width: 300px;
+    height: 100px;
+}
+.thead{
+    background-color: #dd72004f;
+}
+.table-body{
+    background-color: #cf985d7e;
+}
+
+/*all footers*/
+
+.footer-main {
+    position: absolute;
+    background-color: #ffecda;
+    padding: 25px 0;
+    width: 100%;
+    height: 300px;
+    margin-top: 75%;
+    margin-left: -6;
+    font-size: 12px;
+}
+
+.footer-home {
+    position: absolute;
+    background-color: #ffecda;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: -8px;
+    font-size: 12px;
+}
+
+.footer-stu {
+    position: absolute;
+    background-color: #62259e57;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: -8px;
+    font-size: 12px;
+}
+
+.footer-ad {
+    position: absolute;
+    background-color: #ffecda;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 68%;
+    margin-left: -7;
+    font-size: 12px;
+}
+
+.footer-book {
+    position: absolute;
+    background-color: #ffecda;
+    padding: 25px 0;
+    width: 110%;
+    height: 300px;
+    margin-top: 6%;
+    margin-left: -7;
+    font-size: 12px;
+}
+
+#list-content{
+    position: absolute;
+    width: 1350px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.navi-footer{
+    list-style: none;
+    padding-right: 105px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#navi-footer{
+    padding-right: 140px;
+}
+
+#navi-footer1{
+    padding-right: 400px;
+    margin-left: -15px;
+}
+
+.email{
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: -20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#type-email{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: -440;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6f6656;
+    text-align: center;
+    border: none;
+}
+
+#type-email:hover{
+    background-color: #e2e2e2;
+    text-transform: lowercase;
+    border: none;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#signup{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -135px;
+    width: 90px;
+    height: 50px;
+    background-color: #f78e1e;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#signup:hover{
+    background-color: #d77812;
+}
+
+#signup-stu{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -150px;
+    width: 90px;
+    height: 50px;
+    background-color: #61259e;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#signup-stu:hover{
+    background-color: #3f1865;
+}
+
+.footer-citrus-hotels{
+    width: 200px;
+    height: auto;
+    margin-left: 535px;
+    margin-top: 25px;
+    display: flex;
+}
+
+#footer-citrus-hotels{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+.list-footer{
+    padding-bottom: 15px;
+}
+
+.leisure{
+    width: 200px;
+    height: auto;
+    margin-left: 810px;
+    margin-top: -120px;
+    display: flex;
+}
+
+#leisure{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#leisure-list{
+    padding-bottom: 13px;
+}
+
+.contact{
+    width: 200px;
+    height: auto;
+    margin-left: 1090px;
+    margin-top: -170px;
+    display: flex;
+}
+
+#contact{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+#con-list{
+    padding-bottom: 13px;
+}
+
+.copyr{
+    color: grey;
+    font-size: 13px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+/*restaurants*/
+
+#rest{
+    margin-top: 30px;
+}
+
+.citrus-res{
+    height: 70px;
+    width: 100%;
+    margin-top: -71px;
+    margin-left: -8;   /**/
+    /*background-color: #000000;*/
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.hr{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.line-res{
+    position: fixed;
+    margin-left: -6px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+#rest-h1{
+    margin-left: 355px;
+}
+
+.rest-h1{
+    color: #f78e1e;
+}
+
+.rest{
+    margin-top: -50px;
+    margin-left: -8px;
+    width: 110%;
+    height: auto;
+    background-color: #fdd9b8;
+    background-image: url("bwed3.jpeg");
+}
+
+#rest{
+    width: 90%;
+    height: 550px;
+    background-color: transparent;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+#rest1{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 80px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.res1{
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe0;
+    margin-top: 120px;
+    margin-left: -900px;
+    border-radius: 5px;
+}
+
+.res1:hover{
+    background-color: #ffffffb5;
+}
+
+.res2:hover{
+    background-color: #ffffffb5;
+}
+
+.res3:hover{
+    background-color: #ffffffb5;
+}
+.res4:hover{
+    background-color: #ffffffb5;
+}
+.res5:hover{
+    background-color: #ffffffb5;
+}
+.res2{
+
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe0;
+    margin-top: 120px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.res3{
+
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe0;
+    margin-top: 120px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.res4{
+
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe0;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.res5{
+
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe0;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+#r-img{
+    margin-top: 50px;
+}
+
+#r-txt{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    align-content: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #848181;
+}
+
+.read-r{
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #f78e1e;
+    color: #ffffff;
+    margin-top: 60px;
+    border-radius: 2px;
+}
+
+.read-r:hover{
+    background-color: #d77812;
+}
+
+#event{
+    color: #f78e1e;
+}
+
+#event1{
+    color: #f78e1e;
+}
+
+.event-r{
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#event-r1{
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+#wed-r-txt{
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#img-r{
+    width: 400px;
+    height: 200px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.visit-ev{
+    margin-top: 40px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #f78e1e;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.visit-ev:hover{
+    background-color: #d77812;
+}
+
+#met-r-txt{
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*adventures page*/
+
+.line-ad{
+    position: fixed;
+    margin-top: 95px;
+    margin-left: -6px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+.line-ad1{
+    position: fixed;
+    margin-top: 87px;
+    margin-left: -6px;
+    background-color: #c5c3c3;
+    width: 100%;
+    height: 1px;
+}
+
+.adventures{
+    margin-top: -299px;
+    margin-left: -7px;
+    width: 105%;
+    /*background-color: #ffecda;*/
+    background-image: url("adfor1.jpg");
+}
+
+.ad-was{
+    margin-top: 100px;
+    width: 100%;
+    height: 2050px;
+    background-color: #ffffff;
+}
+
+#ad{
+    padding-top: 30px;
+    width: 500px;
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 580px;
+    color: #f78e1e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+#ad1{
+    margin-top: -150px;
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+    margin-left: 750px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#hr-a{
+    margin-top: -25px;
+}
+
+#cit-a{
+    color: #f78e1e;
+}
+
+.was-ad-txt{
+    width: 450px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 550px;
+    background-color: transparent;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+#adven-was{
+    width: 70%;
+    height: 1200px;
+    margin-top: 10px;
+    margin-left: 220px;
+    background-color: transparent;
+}
+
+
+#ad1-img{
+    width: 600px;
+    height: 400px;
+    margin-top: 250px;
+    margin-left: 400px;
+}
+
+#ad-img{
+    margin-top: -640px; 
+    width: 500px;
+    height: 300px;
+}
+
+#ad2-img{
+    width: 450px;
+    height: 300px;
+}
+
+.ad2-img{
+    margin-top: -250px;
+    margin-left: -20px;
+}
+
+.ad1-txt{
+    width: 450px;
+    height: 180px;
+    margin-top: -1155px;
+    margin-left: 750px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hik-ad-txt{
+    width: 450px;
+    height: 50px;
+    margin-top: 1050px;
+    margin-left: 555px;
+    /*background-color: #5e5964;*/
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+#adven-hik{
+    width: 70%;
+    height: 1400px;
+    margin-top: 60px;
+    margin-left: 220px;
+    /*background-color: #601414;*/
+}
+
+.ad2-txt{
+    width: 450px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ad12-img{
+    margin-left: 600px;
+    margin-top: -650px; 
+    width: 375px;
+    height: 400px;
+}
+
+.ad13-img{
+    margin-top: -640px;
+    margin-left: -50px;
+}
+
+#ad13-img{
+    width: 700px;
+    height: 400px;
+}
+
+#ad11-img{
+    width: 500px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 350px;
+}
+
+.ad3-txt{
+    width: 450px;
+    height: 180px;
+    margin-top: -210px;
+    margin-left: 700px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ad4-txt{
+    width: 450px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#map11{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+#map12{
+    margin-top: 30px;
+    margin-left: -150px;
+}
+
+#map13{
+    margin-top: 100px;
+    margin-left: -150px;
+}
+
+#map14{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+/*booking page*/
+
+.booking{
+    width: 110%;
+    height: 1000px;
+    margin-left: -8px;
+}
+
+.bg-img{
+    width: 140%;
+    height: 1000px;
+    background-image: url("image3.jpg");
+    margin-top: -65px;
+}
+
+#space{
+    width: 200px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+.form1{
+    margin-top: -70px;
+    margin-left: 70px;
+    width: 59%;
+    height: 890px;
+    background-color: #dbd0d0c4;
+    border-radius: 10px;
+}
+
+.topic{
+    width: 500px;
+    height: 50px;
+    margin-top: -880px;
+    margin-left: 500px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: #f78e1e;
+}
+
+#book{
+    width: 500px;
+    height: 50px;
+    margin-top: -680px;
+    margin-left: 250px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+.table-form{
+    margin-top: 70px;
+    margin-left: 135px;
+    margin-right: 950px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    /*backdrop-filter: blur(7px);*/
+    background-color: #79787569;
+}
+
+#td{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#form-cit{
+    color: #f78e1e;
+}
+
+#form-cit1{
+    color: #61259e;
+}
+
+.input-form{
+    height: 25px;
+    background-color: #f1d7bc8f;
+}
+
+.book-now{
+    width: 140px;
+    height: 50px;
+    background-color: #f78e1e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+.book-now:hover{
+    background-color: #d77812;
+}
+
+.bg-img1{
+    width: 140%;
+    height: 840px;
+    background-image: url("adfor1.jpg");
+    margin-top: 100px;
+}
+
+.form2{
+    margin-top: -40px;
+    margin-left: 85px;
+    width: 59%;
+    height: 720px;
+    background-color: #dbd0d0c4;
+    border-radius: 10px;
+}
+
+.topic1{
+    width: 500px;
+    height: 50px;
+    margin-top: -700px;
+    margin-left: 500px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: #f78e1e;
+}
+
+.table-form1{
+    margin-top: -800px;
+    margin-left: 135px;
+    margin-right: 950px;
+    width: 85%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    /*backdrop-filter: blur(7px);*/
+    background-color: #79787569;
+}
+
+.book-now1{
+    width: 140px;
+    height: 50px;
+    background-color: #f78e1e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 740px;
+}
+
+.book-now1:hover{
+    background-color: #d77812;
+}
+
+
+/*media queries*/
+
+
+
+@media (max-width:588px){
+
+    .top-bar{
+        height: 55px;
+     }
+ 
+     .citrus-res{
+         margin-top: -100px;
+         height: 100px;
+     }
+     .name{
+         margin-left: 150px;
+         font-size: 27px;
+     }
+ 
+    .social{
+         margin-top: 9px;
+         margin-left: 400px;
+         font-size: 27px;
+    }
+ 
+     .menu-header{
+         margin-top: 2px;
+         margin-left: 400px;
+     }
+ 
+     #menu{
+         font-size: 20px;
+     }
+ 
+     .rest{
+         margin-top: 100px;
+         margin-left: 200px;
+         width: 112%; 
+         height: 90%;
+     }
+ 
+     #rest-h1{
+         margin-left: 600px;
+     }
+     .res1{
+         margin-top: 170px;
+         margin-left: -1200px;
+         width: 500px;
+         font-size: 20px;
+     }
+     .res2{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res3{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res4{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res5{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .read-r{
+         margin-top: 20px;
+     }
+ 
+     #r-txt{
+         font-size: 20px;
+         margin-left: 20px;
+     }
+ 
+     .event-r{
+         zoom: 140%;
+         margin-left: 150px;
+     }
+ 
+     .footer-home{
+         zoom: 140%;
+     }
+ 
+     .logo{
+         zoom: 140%;
+     }
+     .navigation{
+         margin-top: -60px;
+         margin-left: 1100px;
+     }
+ 
+     #navi{
+         font-size: 27px;
+     }
+ 
+     #navi-hover{
+         font-size: 27px;
+     }
+}
+
+
+@media (max-width:1650px){
+
+    .top-bar{
+        height: 55px;
+     }
+ 
+     .citrus-res{
+         margin-top: -100px;
+         height: 100px;
+     }
+     .name{
+         margin-left: 150px;
+         font-size: 27px;
+     }
+ 
+    .social{
+         margin-top: 9px;
+         margin-left: 400px;
+         font-size: 27px;
+    }
+ 
+     .menu-header{
+         margin-top: 2px;
+         margin-left: 400px;
+     }
+ 
+     #menu{
+         font-size: 20px;
+     }
+ 
+     .rest{
+         margin-top: 100px;
+         margin-left: 200px;
+         width: 92%; 
+         height: 90%;
+     }
+ 
+     #rest-h1{
+         margin-left: 600px;
+     }
+     .res1{
+         margin-top: 170px;
+         margin-left: -1200px;
+         width: 500px;
+         font-size: 20px;
+     }
+     .res2{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res3{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res4{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res5{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .read-r{
+         margin-top: 20px;
+     }
+ 
+     #r-txt{
+         font-size: 20px;
+         margin-left: 20px;
+     }
+ 
+     .event-r{
+         zoom: 140%;
+         margin-left: 150px;
+     }
+ 
+     .footer-home{
+         zoom: 140%;
+     }
+ 
+     .logo{
+         zoom: 140%;
+     }
+     .navigation{
+         margin-top: -60px;
+         margin-left: 1100px;
+     }
+ 
+     #navi{
+         font-size: 27px;
+     }
+ 
+     #navi-hover{
+         font-size: 27px;
+     }
+
+     /*#container-home{
+        zoom: 550%;
+        width: 2550%;
+     }*/
+
+     .home-navi{
+        zoom: 400%;
+        margin-left: -50px;
+     }
+
+     .citrus-hotels-home{
+        zoom: 400%;
+        margin-left: -0px;
+        margin-top: 40px;
+     }
+}
+
+
+@media (max-width:1440px){
+
+    .top-bar{
+        height: 55px;
+     }
+ 
+     .citrus-res{
+         margin-top: -100px;
+         height: 100px;
+     }
+     .name{
+         margin-left: 30px;
+         font-size: 27px;
+     }
+ 
+    .social{
+         margin-top: 9px;
+         margin-left: 270px;
+         font-size: 27px;
+    }
+ 
+     .menu-header{
+         margin-top: 2px;
+         margin-left: 20px;
+     }
+ 
+     #menu{
+         font-size: 20px;
+     }
+ 
+     .rest{
+         margin-top: 100px;
+         margin-left: 5px;
+         width: 164%; 
+         height: 90%;
+     }
+ 
+     #rest-h1{
+         margin-left: 600px;
+     }
+     .res1{
+         margin-top: 170px;
+         margin-left: -1200px;
+         width: 500px;
+         font-size: 20px;
+     }
+     .res2{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res3{
+         margin-top: 170px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res4{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .res5{
+         margin-top: 100px;
+         width: 500px;
+         font-size: 20px;
+     }
+ 
+     .read-r{
+         margin-top: 20px;
+     }
+ 
+     #r-txt{
+         font-size: 20px;
+         margin-left: 20px;
+     }
+ 
+     .event-r{
+         zoom: 180%;
+         margin-left: 259px;
+         font-size: 40px;
+     }
+
+     #r-wed-img{
+        display: flex;
+        margin-left: -190px;
+     }
+
+     #wed-r-txt{
+       font-size: 25px;
+       margin-right: -150px;
+     }
+
+     #met-r-txt{
+        font-size: 25px;
+       margin-right: -150px;
+     }
+
+     .visit-ev{
+        margin-left: 200px;
+     }
+
+     .img-r{
+        display: flex;
+     }
+ 
+     .footer-home{
+         zoom: 140%;
+         width: 170%;
+     }
+ 
+     .logo{
+         zoom: 140%;
+     }
+     .navigation{
+         margin-top: -60px;
+         margin-left: 750px;
+     }
+ 
+     #navi{
+         font-size: 27px;
+     }
+ 
+     #navi-hover{
+         font-size: 27px;
+     }
+
+     .adventures{
+        width: 150%;
+     }
+
+    }
+     
+    @media (max-width:1764px){
+        .navigation{
+            margin-left: 355px;
+        }
+    }
+    @media (max-width:1568px){
+        .adventures{
+            width: 120%;
+         }
+         .menu-header{
+            margin-top: 2px;
+            margin-left: -100px;
+        }
+}
+
+
+@media (max-width:1024px){
+
+    .footer-home{
+        zoom: 140%;
+        width: 270%;
+    }
+    .adventures{
+        width: 200%;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width:1880px){
+
+    .footer-ad{
+        margin-top: 100%;
+        width: 150%;
+        
+    }
+}
+
+
+
+@media(width < 1440px){
+
+    .body{
+        zoom: 80%;
+    }
+    .citrus{
+        zoom: 80%;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .top-bar{
+        zoom: 80%;
+    }
+
+    .menu-header-div{
+        margin-left: 650px;
+    }
+
+    .footer-main{
+        margin-top: 300%;
+        zoom: 200%;
+    }
+
+    .home-navi{
+        margin-top: 100px;
+        zoom: 200%;
+        position: fixed;
+    }
+
+    #home-navi{
+        margin-top:-200px;
+    }
+
+    .citrus-hotels-home{
+        zoom: 200%;
+        margin-top: -3px;
+        margin-left: -50px;
+    }
+
+   .hotels-button{
+        zoom: 50%;
+   }
+
+   .bar{
+        margin-top: 270px;
+        zoom: 108%;
+        height: auto;
+    
+    }
+   
+    .container-home{
+        width: 800%;
+        margin-top: 100px;
+    }
+
+    .line{
+        margin-top: 500px;
+    }
+
+    #explore{
+        margin-top: 400px;
+        margin-left: 10px;
+        zoom: 150%;
+    }
+
+    #para{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #ex-img2{
+        margin-top: 100px;
+        margin-left: 100px;
+        zoom: 120%;
+    }
+
+    #ex-img1{
+        margin-left: 20px;
+    }
+
+    .footer-home{
+        margin-top: 110%;
+    }
+
+    #img20{
+        margin-top: 100px;
+    }
+    #img21{
+        margin-top: 100px;
+    }
+    #img22{
+        margin-top: 100px;
+    }
+    #img23{
+        margin-top: 100px;
+    }
+    #img24{
+        margin-top: 100px;
+    }
+}
+
+
+@media(width<=1000px){
+    .citrus{
+        zoom: 50%;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .top-bar{
+        zoom: 50%;
+    }
+
+    .menu-header-div{
+        margin-left: 700px;
+    }
+
+    .footer-main{
+        margin-top: 500%;
+        zoom: 50%;
+    }
+
+    .citrus-hotels-home{
+        zoom: 120%;
+        margin-left: -50px;
+    }
+
+    .bar{
+        zoom: 18%;
+    }
+
+    .container-home{
+        zoom: 50%;
+        width: 4%;
+        height: 30%;
+        overflow-x: hidden;
+    }
+
+    #explore{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+
+    #para{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #ex-img2{
+        margin-top: 100px;
+        margin-left: 100px;
+        zoom: 120%;
+    }
+
+    #ex-img1{
+        margin-left: 20px;
+    }
+
+    .footer-home{
+        margin-top: 110%;
+    }
+
+    .body-ad{
+        zoom: 50%;
+    }
+    
+    .footer-ad{
+        margin-top: 120%;
+        width: 160%;
+    }
+
+    .form1{
+        width: 83%;
+    }
+
+    .form2{
+        width: 83%;
+    }
+
+    .table-form1{
+        width: 117%;
+    }
+
+    .footer-book{
+        margin-top: 10%;
+        width: 160%;
+    }
+
+    .citrus-res{
+        zoom: 150%;
+        margin-top: -75px;
+        height: 100px;
+    }
+
+    .top-bar-res{
+        zoom: 150%;
+        height: auto;
+    }
+
+    .line-res{
+        margin-top: 70px;
+    }
+
+    .rest{
+        margin-top: 170px;
+        width: 200%;
+        height: max-content;
+    }
+
+    #rest{
+        margin-top: 170px;
+        justify-content: center;
+        height: 200%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    #rest-h1{
+        margin-top: 50px;
+        zoom: 150%;
+        margin-left: 200px;
+    }
+
+    .res1{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .res2{
+        margin-left: 800px;
+        margin-top: -510px;
+    }
+    .res3{
+        margin-left: 500px;
+        margin-top: 100px;
+    }
+    .res4{
+        margin-top: 000px;
+        margin-left: 80px;
+    }
+    .res5{
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    #r-wed-img{
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        margin-right: 20px;
+    }
+    #img-r{
+        width: 150%;
+        height: auto;
+    }
+}
