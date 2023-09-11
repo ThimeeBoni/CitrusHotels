@@ -518,12 +518,12 @@ img.hover-img{
     }
 
     .menu-header-ev1{
-        margin-left: 650px;
+        margin-left: 50px;
     }
 
     .footer-ev{
-        zoom: 85%;
-        width: 150%;
+        zoom: 80%;
+        width: 140%;
         margin-left: -2px;
     }
 
@@ -559,15 +559,35 @@ img.hover-img{
 
     .img1-ev1{
         width: 130%;
+        zoom: 120%;
+        height: 1000px;
     }
 
     .container1-ev1{
         width: 136%;
         zoom: 80%;
+        margin-left: 20px;
     }
     #ev1-hall-des{
-        margin-top: 200px;
+        margin-top: 50px;
         margin-left: 50px;
         zoom: 150%;
+    }
+
+    .ev1-hall{
+        margin-top: -950px;
+    }
+
+    .more1{
+        width: 50%;
+        zoom: 150%;
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+    .more{
+        width: 50%;
+        zoom: 150%;
+        margin-left: 300px;
+        margin-top: 300px;
     }
 }
