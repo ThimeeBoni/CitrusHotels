@@ -1708,13 +1708,6 @@
 }
 
 
-@media (max-width:1764px){
-    .navigation{
-        margin-left: 155px;
-    }
-}
-
-
 @media (max-width:1650px){
 
     .top-bar{
@@ -1808,7 +1801,7 @@
      }
      .navigation{
          margin-top: -60px;
-         margin-left: 800px;
+         margin-left: 1100px;
      }
  
      #navi{
@@ -1823,6 +1816,10 @@
         zoom: 550%;
         width: 2550%;
      }*/
+
+     .navi{
+        margin-left: 250px;
+    }
 
      .home-navi{
         zoom: 400%;
@@ -1858,6 +1855,10 @@
          margin-top: -100px;
          height: 100px;
      }
+
+     .navi{
+        margin-left: 250px;
+    }
      .name{
          margin-left: 30px;
          font-size: 27px;
@@ -1925,10 +1926,6 @@
         height: auto;
     }
 
-    .top-bar{
-        zoom: 80%;
-    }
-
     .navigation{
         margin-top: -60px;
         margin-left: 250px;
@@ -1936,6 +1933,10 @@
 
     .navi{
         margin-left: 250px;
+    }
+
+    .top-bar{
+        zoom: 80%;
     }
 
     .menu-header-div{
@@ -2200,11 +2201,6 @@
         zoom: 50%;
     }
 
-      .navigation{
-        margin-top: -60px;
-        margin-left: 250px;
-    }
-
     .menu-header-div{
         margin-left: 700px;
     }
@@ -2449,11 +2445,6 @@
         zoom: 50%;
         margin-top: 40px;
         height: auto;
-    }
-
-      .navigation{
-        margin-top: -60px;
-        margin-left: 250px;
     }
  
      .citrus-res{
